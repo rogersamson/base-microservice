@@ -12,6 +12,11 @@ public class BaseController {
 	@GetMapping("/fetch-all-records")	
 	public List fetchAll() {
 		List<String> listRecords = new ArrayList<String>();
+		listRecords.add("ROGER");
+		listRecords.add("SAMSON");
+		listRecords.add("SAMSON");
+		listRecords.add("SAMSON");
+		listRecords.add("SAMSON");
 		return listRecords;
 	}
 
